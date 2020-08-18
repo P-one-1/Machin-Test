@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+        <style>
+            ul{
+                margin: 0 auto;
+                padding: 0;
+                list-style: none;
+                height: 36px;
+                line-height: 36px;
+                background-color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+            }
+
+            li{
+                float: left;
+            }
+
+            a{
+                display: block;
+                padding: 0 28px;
+                color: #d4d4d4;
+                text-decoration: none;  /* To remove underline of link. */
+            }
+
+            .cards{
+                margin: 0 auto;
+                max-width: 900px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+                gap: 30px;
+                font-family: sans-serif;
+            }
+
+            .card_image{
+                width: 100%;
+                display: block;
+            }
+
+            .card_content{
+                line-height: 1.5;
+                font-size: 0.9em;
+                padding: 0;
+            }
+
+            .card_content > p:first-of-type{
+                margin-top: 0;
+                margin-left: 0;
+            }
+
+            .pr_name{
+                color: deepskyblue;
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+
+            .material-icons{
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+        </style>
+
+        <script>
+            function rmFunction() {
+                var myobj = document.getElementById('myDIV');
+                myobj.style.display = "none";
+            }
+        </script>
+
+    <body>
+        <ul>
+            <li> <a href="#">Layout 1</a> </li>
+            <li> <a href="#">About</a> </li>
+            <li> <a href="#">Service</a> </li>
+            <li> <a href="#">Contact</a> </li>
+            <input type="text" placeholder="Search.." style="float: right; padding: 2px 20px 5px 150px;">
+        </ul>
+
+        <h1>Page Heading</h1>
+
+        <hr>
+
+        <div class="cards">
+            <div class="card" id="myDIV">
+                <img src="http://www.protekdevices.com/xyz/images/package/700x400.gif" alt="" class="card_image">
+                <div class="card_name">
+                    <div class="w3-padding w3-xlarge w3-teal">
+                        <i class="pr_name">Project 1</i>
+                        <i class="material-icons" onclick="rmFunction()">delete</i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit omnis tempore exercitationem porro sint eligendi unde dolor sapiente.
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="myDIV">
+                <img src="http://www.protekdevices.com/xyz/images/package/700x400.gif" alt="" class="card_image">
+                <div class="card_name">
+                    <div class="w3-padding w3-xlarge w3-teal">
+                        <i class="pr_name">Project 2</i>
+                        <i class="material-icons" onclick="rmFunction()">delete</i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit omnis tempore exercitationem porro sint eligendi unde dolor sapiente.
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="myDIV">
+                <img src="http://www.protekdevices.com/xyz/images/package/700x400.gif" alt="" class="card_image">
+                <div class="card_name">
+                    <div class="w3-padding w3-xlarge w3-teal">
+                        <i class="pr_name">Project 3</i>
+                        <i class="material-icons" onclick="rmFunction()">delete</i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit omnis tempore exercitationem porro sint eligendi unde dolor sapiente.
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="myDIV">
+                <img src="http://www.protekdevices.com/xyz/images/package/700x400.gif" alt="" class="card_image">
+                <div class="card_name">
+                    <div class="w3-padding w3-xlarge w3-teal">
+                        <i class="pr_name">Project 4</i>
+                        <i class="material-icons" onclick="rmFunction()">delete</i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit omnis tempore exercitationem porro sint eligendi unde dolor sapiente.
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="myDIV">
+                <img src="http://www.protekdevices.com/xyz/images/package/700x400.gif" alt="" class="card_image">
+                <div class="card_name">
+                    <div class="w3-padding w3-xlarge w3-teal">
+                        <i class="pr_name">Project 5</i>
+                        <i class="material-icons" onclick="rmFunction()">delete</i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit omnis tempore exercitationem porro sint eligendi unde dolor sapiente.
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="myDIV">
+                <img src="http://www.protekdevices.com/xyz/images/package/700x400.gif" alt="" class="card_image">
+                <div class="card_name">
+                    <div class="w3-padding w3-xlarge w3-teal">
+                        <i class="pr_name">Project 6</i>
+                        <i class="material-icons" onclick="rmFunction()">delete</i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit omnis tempore exercitationem porro sint eligendi unde dolor sapiente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
